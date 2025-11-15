@@ -4,7 +4,8 @@ alfabet = ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
 # Ontcijfer de geheime boodschap en print het volledige bericht
 bericht = ""
 
-# Schrijf jouw code hier!
+for index in geheime_boodschap:
+    bericht += alfabet[index]
 
 print("Ontcijferde geheime boodschap:")
 print(bericht)
